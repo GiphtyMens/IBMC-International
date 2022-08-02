@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+QLD+Beginner:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital@1&display=swap');
+
+#bg-img {
+  background-image: url("./assets/img/header-1.jpg");
+  background-position: center;
+  background-size: cover;
+  background-color: rgba(9, 9, 44, 0.199);
+}
+
+.space{
+  height: 2rem;
+}
+
+@media (max-width: 640px) {
+  #bg-img {
+    padding-top: 6rem;
+  }
+}
+
+#home_bg {
+  background-image: url("./assets/img/home-header.jpg");
+  background-position: center;
+  background-size: cover;
+  background-color: rgba(39, 13, 13, 0.459);
+  margin: 0;
+}
+
+
+@media (max-width: 640px) {
+  #home_bg {
+    border-bottom-right-radius: 0.375rem;
+    height: 50vh;
+    padding: 20px;
+    /* font-family: 'Edu QLD Beginner', cursive; */
+  }
+  #home_text {
+    font-size: 1rem;
+    text-align: center;
+    margin: 15px 15px 20px 15px;
+    /* font-family: 'Edu QLD Beginner', cursive; */
+  }
+  #home_heading {
+    text-align: center;
+    font-size: 30px;
+    /* font-family: 'Poppins', sans-serif; */
+    /* font-family: 'Edu QLD Beginner', cursive; */
+  }
+
+
+  #shortServices, #allServices {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  #os_main, #is_main {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  #ss_card, #is_card{
+    height: 23rem;
+  }
+  #footer_card{
+    height: 50vh;
+    text-align: center;
+    border-bottom: 1px solid gray;
+  }
+  #footer_card_last{
+    height: 57vh;
+    text-align: center;
+  }
+  
+  #footer_main{
+    padding: 0 0 0 0;
+    min-height: 220vh;
+  }
+
+  #social_icons{
+    margin: 0 auto;
+    width: 14rem;
+    margin-top: 3rem;
+  }
+  #about_sec{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  #heart-shape{
+    display: none;
+  }
+  #head_btn{
+    padding: 8px 35px;
+  }
+}
+
+@media (max-width: 1018px) {
+  #home_bg {
+    height: 90vh;
+    border-bottom-right-radius: 0.375rem;
+  }
+  #heart-shape{
+    display: none;
+  }
+}
+
+@media (max-width: 1464px) {
+  #footer_card {
+    /* width: 500px; */
+  }
+  #footer{
+    /* flex-wrap: wrap; */
+    display: flex;
+    justify-content: center;
+  }
+}
+
+#ss_card{
+  box-shadow: 1px 1px 10px 1px rgb(224, 224, 224);
+}
+
+@media (max-width: 400px) {
+  #footer_main{
+    padding: 0 0 0 0;
+    min-height: 200vh;
+    /* border: 1px sold black; */
+    /* background-color: brown; */
+  }
+}
+
+@media (max-width: 1188px) {
+  #heart-shape {
+      width: 450px;
+  }
+}
+
+.heart-shape{
+  position: relative;
+  width: 560px;
+  height: 420px;
+  background-image: url("./assets/img/head.jpg");
+  background-position: center;
+  background-size: cover;
+  /* border: 1px solid black; */
+  margin: 2rem 0 0 2.4rem;
+  border-radius: 5px;
+}
+
+#home_heading{
+  /* font-family: 'Poppins', sans-serif;  */
+  /* font-family: 'Raleway', sans-serif; */
+  /* font-family: 'Raleway', sans-serif; */
+  font-family: 'Raleway', sans-serif;
+}
+
+#home_text{
+  font-family: 'Poppins', sans-serif;
+  /* font-family: 'Raleway', sans-serif; */
+  /* font-family: 'Raleway', sans-serif; */
+  /* font-family: 'Raleway', sans-serif; */
+}
+
+#gg-ff{
+  font-family: 'Raleway', sans-serif;
+}
